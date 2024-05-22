@@ -49,7 +49,8 @@ const data2 = [
     { weeks: '20 weeks', standard: 1900000, economyPlus: 1840000, economy: 1800000 },
     { weeks: '21 weeks', standard: 1981000, economyPlus: 1918000, economy: 1876000 },
     { weeks: '22 weeks', standard: 2075000, economyPlus: 2009000, economy: 1965000 },
-    { weeks: '23 weeks', standard: 2170000, economyPlus: 2101000, economy: 2055000 }
+    { weeks: '23 weeks', standard: 2170000, economyPlus: 2101000, economy: 2055000 },
+    { weeks: '24 weeks', standard: 2264000, economyPlus: 2192000, economy: 2144000 }
 ];
 
 const data3 = [
