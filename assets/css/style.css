@@ -947,6 +947,7 @@ table {
   border-spacing: 0;
   margin: 0 0 20px;
   width: 100%;
+  table-layout: fixed; /* Ensures the table has a fixed layout */
 }
 
 table a,
@@ -16962,7 +16963,7 @@ span.transparent-button:hover i {
 }
 .rbt-table tr th,
 .rbt-table tr td {
-  padding: 10px 20px;
+  padding: 10px 5px;
   border: 0 none;
 }
 .rbt-table thead tr th,
@@ -16974,8 +16975,8 @@ span.transparent-button:hover i {
 .rbt-table tfoot tr th,
 .rbt-table tfoot tr td {
   color: var(--color-heading);
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 13px;
 }
 .rbt-table tbody tr th,
 .rbt-table tbody tr td {
@@ -27163,7 +27164,7 @@ Course Sidebar
 
 @media only screen and (max-width: 767px) {
   .mobile-table-750 .rbt-table {
-    min-width: 750px;
+    min-width: 100%;
   }
 }
 
