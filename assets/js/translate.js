@@ -3,8 +3,8 @@ let isTranslationOn = false;
 
 // Custom translations for specific terms and phrases
 const customTranslations = {
-  "Superior": {
-    'ja': 'スーペリア' // Custom translation for Superior in Japanese
+  "&nbsp;Have any Question?": {
+    'ja': 'スーペリア'
   }
 };
 
